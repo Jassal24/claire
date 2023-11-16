@@ -1,0 +1,23 @@
+/* styles.css */
+
+body {
+    background-color: burlywood;
+    font-family:Verdana,Lucida Console;
+   
+}
+.image
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius:20%;
+    height: 40%;
+}
+h1{
+    text-align: center;
+}
+.info
+{
+
+}

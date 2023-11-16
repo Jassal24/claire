@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: space-between;
+            height: 100vh;
+            background: rgb(141, 59, 59);
+            align-items: center;
+        }
+        .container
+        {
+            display: flex;
+        }
+        .card
+        {
+            height: 500px;
+            margin: 50px;
+            box-shadow: 5px 5px 20px black;
+            overflow: hidden;
+        }
+        img
+        {
+            height: 500px;
+            width: 350px;
+            border-radius: 3px;
+            transition:.5s ;
+        }
+        .intro
+        {
+            height: 300px;
+            width: 350px;
+            padding: 6px;
+            box-sizing: border-box;
+            position: absolute;
+            background: rgb(27,27,27,.5);
+            color: white;
+            transition:.5s ;
+        }
+        h1
+        {
+            margin: 10px;
+            font-size: 40px;
+        }
+        p{
+            font-size: 20px;
+            margin: 20px;
+        }
+        span{
+            font-weight: bold;
+        }
+        .card:hover
+        {
+            cursor: pointer;
+        }
+        .card:hover .intro
+        {
+            height: 300px;
+            bottom: 240px;
+            background: black;
+        }
+        .card:hover p
+        {
+            opacity: 1;
+            visibility: visible;
+        }
+        .card:hover img
+        {
+           transform:scale(1.1) rotate(-3deg); 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./MicrosoftTeams-image.png" alt="Personal-info">
+            <div class="intro">
+                <h1>Information</h1>
+                <p> NAME IS CLAIRE ANGEL RUAN, <hr> <br> My Birthday is April 2, 2002.I am 21 years old.
+                 from Mindoro but I am currenly living in Vigan St. Sampaloc Manila.
+                   .
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./educ.jpg" alt="Education">
+            <div class="intro">
+                <h1>Education</h1>
+                <p> I studied my grade school in Pola Central School.
+                    I spent 6 years of my secondary  education at Domingo Yu Chu National High School,
+                    And currently,
+                     I am a 3rd Year student studying at TUP Manila with a course of Computer Engineering Technology.
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./hobbies.jpg" alt="Hobbies">
+            <div class="intro">
+                <h1>Hobbies</h1>
+                <p> I love watching Korean Dramas.
+                    I watch also some local music festivals.
+                    During my  breaktime, I also scrolling satisfying videos on Tiktok.
+                    I felt happy when I am doing checkout in orange app hehe .
+                </p>
+            </div>
+        </div>
+        <div class="card">
+            <a href="./video.html"><img  src="./fassss.jpg" alt="Favorites" ></a>
+            <div class="intro">
+                <h1>Favorites</h1>
+                <p>  Artists: Taylor Swift, Harry Styles, Ed Sheeran, Niall Horan and NIKI.
+                     Bands: EXO, LANY, The Chainsmokers, Cup of Joe and Ben&Ben.
+                    e Colors: Black, Navy Blue, Moss Green, Gray and White.
+                      KSDramas:Vagabond, It's Not Okay not to Okay, and While You Were Sleeping
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
